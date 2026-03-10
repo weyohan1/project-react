@@ -1,0 +1,31 @@
+.table_back td  {
+  background-color: #EFE6D8;
+  color: #325336;
+  /* border: 1px solid #325336; */
+}
+.table_back th {
+  color: #325336;
+}
+.table_back button {
+  color: #325336;
+  font-weight: 600;
+  width: 50px;
+}
+
+
+.cart_title {
+  background-color: #325336;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+
+
+}
+
+.table_back {
+  margin-top: 10px;
+
+}
+
+

@@ -1,0 +1,94 @@
+
+.sale_box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sale_box :global(.swiper-slide) {
+width: 100%;
+height: 500px;
+background-color: #EFE6D8;
+position: relative;
+overflow: hidden;
+}
+
+.sale_box :global(.swiper-slide img) {
+  width: 100%;
+height: 400px;
+  /* height: auto; */
+  object-fit: contain ;
+  transition: transform 0.4s ease;
+ 
+  
+}
+
+.sale_box :global(.swiper-slide img:hover) {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+ .sale_text {
+  font-size: 14px;
+  color: #325336;
+  pointer-events: none;
+  /* position: relative; */
+
+}
+
+
+ .sale_title {
+  position: absolute;
+font-size: 50px;
+top: 0px;
+left:640px;
+/* margin: 0 auto; */
+
+}
+.sale_product {
+position: absolute;
+top: 130px;
+left: 300px;
+font-size: 30px;
+}
+
+ .sale_particular {
+  position: absolute;
+  top: 160px;
+  right: -90px;
+  text-align: center;
+  text-wrap: nowrap;
+  width: 50%;
+  /* height: 100%; */
+
+
+
+
+}
+
+.last_span {
+
+}
+ .sale_particular span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+ .sale_particular span:nth-child(1) {
+font-size: 24px;
+font-weight: bold;
+
+}
+
+
+
+ .sale_particular span:nth-child(3) {
+color: red;
+text-decoration: line-through;
+}
+
+.sale_particular span:last-child {
+font-size: 50px;
+}
+
+
+

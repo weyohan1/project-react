@@ -1,0 +1,107 @@
+    /* * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    a{text-decoration: none; color: black;} */
+
+
+
+
+
+.login_title {
+    width: 100%;
+  color: white;
+  background-color: #325336;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-align: center;
+
+}
+
+
+
+
+
+
+  .login_main {
+      width: 50%;
+      margin: 0 auto;
+      /* background: #efefef; */
+      background: #EFE6D8;
+      border: 1px solid #ccc;
+      padding: 25px;
+    }
+
+    .login_logo {
+      width: 100%;
+      color: #325336;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+   
+    .login_box p {
+      margin-bottom: 6px;
+      font-size: 15px;
+      color: #325336;
+    }
+
+    .login_box input{
+      width: 100%;
+      height: 45px;
+      border: 1px solid #325336;
+      padding: 10px;
+      font-size: 15px;
+      margin-bottom: 18px;
+      background: #fafafa;
+    }
+
+    
+    
+    
+    .save_wrap {
+      /* display: flex; */
+      /* justify-content:center; */
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+  
+        .save_wrap input {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+      
+      }
+
+  
+    .login_btn {
+      width: 100%;
+      height: 50px;
+      background: white;
+      border: 1px solid #325336;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #325336;
+      margin-bottom: 18px;
+    }
+
+
+    .find_menu {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+    .find_menu  {
+      
+      color: #325336;
+}
+    .find_text:hover {
+      cursor: pointer;
+      
+
+
+    }
