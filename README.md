@@ -31,8 +31,8 @@
 <img src = "https://github.com/user-attachments/assets/0e80ecf8-00d7-471b-b9ac-bb1720d8cab7" width = "300px"/>
 <br>
 <img src = "https://github.com/user-attachments/assets/4f750bf9-53a4-4f4a-8616-fc72129f6864" width = "200px"/>
-<img src = "https://github.com/user-attachments/assets/f87f2e9b-0554-4955-85e2-b1c36854adee" width = "300px"/>
 <img src = "https://github.com/user-attachments/assets/0594ee90-283a-4cc3-ac59-19648142e340" width = "200px"/>
+<img src = "https://github.com/user-attachments/assets/f87f2e9b-0554-4955-85e2-b1c36854adee" width = "200px"/>
 <img src = "https://github.com/user-attachments/assets/94dfc08e-9b2f-4028-bf05-03a620821c27" width = "200px"/>
 
 
