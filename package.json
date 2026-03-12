@@ -1,6 +1,7 @@
 {
   "name": "weroh",
   "version": "0.1.0",
+  "homepage": "https://weyohan1.github.io/project-react/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
