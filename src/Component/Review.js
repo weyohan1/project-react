@@ -99,7 +99,8 @@ const ReviewCardImg = styled.img`
         <ReviewCard  key={review.id}>
 
                <Link to={`/ReviewDetails/${review.id}`}>
-      <ReviewCardImg src={process.env.PUBLIC_URL + review.img} alt={review.title} />
+      {/* <ReviewCardImg src={process.env.PUBLIC_URL + review.img} alt={review.title} /> */}
+      <ReviewCardImg src={review.img} alt={review.title} />
       <h3>{review.title}</h3>
       <p>{review.desc}</p>
       <p>{review.user}님</p>
