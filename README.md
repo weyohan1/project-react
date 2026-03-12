@@ -91,6 +91,8 @@ project
  ├ Story.js
  │   └ style.component 
  ├ Review.js
+ ├ ReviewData.js
+ ├ ReviewDetail.js
  │   └ style.component 
  ├ Login.js
  │   └ Login.css
