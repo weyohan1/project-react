@@ -1,57 +1,3 @@
-// // import React, { Component } from 'react'
-// // import BodyDetails from './BodyDetails';
-// // import Cart from './Cart';
-// import BodyData from './BodyData';
-// import './Body.css';
-// import Footer from './Footer';
-
-// import {Link} from 'react-router-dom';
-// import { useDispatch} from 'react-redux';
-// import {addItem} from './Store';
-// import { useState} from 'react';
-
-// export default function Body() {
-
-// const [body] = useState(BodyData);
-// const dispatch = useDispatch();
-
-
-//   return (
-//     <div>
-//       <div className='body_title'>
-        
-//       <h1>바디 로션</h1>
-//       <div className='breadcrumb'>
-//       <p>Body > 바디 로션</p>
-//       </div>
-
-//       </div>
-     
-
-// <div className="body_item_list">
-//   {body.map((body,index) => (
-//     <div className="body_item_card" key={body.id}>
-//       <Link to={`/BodyDetails/${body.id}`}>
-//       <img src={body.img} alt={body.title} />
-//       <h3>{body.title}</h3>
-//       <p>{body.desc}</p>
-//       <p>{body.price.toLocaleString()}원</p>
-//       </Link>
-
-//        <button onClick ={()=> {dispatch(addItem({id:body.id, title:body.title,count: 1}))}}>장바구니</button>
-//     </div>
-//   ))}
-// </div>
-
-
-
-// <Footer/>
-//     </div>
-//   )
-// }
-
-
-
 
 import React, { useState } from 'react';
 import styled from 'styled-components'; 
@@ -62,7 +8,7 @@ import { useDispatch } from 'react-redux';
 import { addItem } from './Store';
 
 
-// ㅡㅡㅡㅡㅡㅡㅡ    ㅡㅡㅡ추가 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
  
 
 const Title = styled.div`

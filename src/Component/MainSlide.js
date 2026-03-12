@@ -29,14 +29,11 @@ export default function MainSlide() {
       slidesPerView={1}
       navigation
       pagination={{clickable: true}}
-      // scrollbar= {{draggable: true}}
-      // onSlideChange={() => console.log('slide change')}
-      // onSwiper={(swiper) => console.log(swiper)}
      autoplay={{delay: 3000, disableOnInteraction: false }}
      loop={true}
     >
    <SwiperSlide onClick={() => {navigate('/hand');window.scrollTo(0, 0); }}>
-        <img src="/img/main_slide/01.jpg" alt="1번 배너" />
+        <img src={process.env.PUBLIC_URL + "/img/main_slide/01.jpg"} alt="1번 배너" />
         <div className={styles.main_txt}>
         <p>WEROH</p>
         <p>"HAND CARE"</p>
@@ -47,7 +44,7 @@ export default function MainSlide() {
       </SwiperSlide>
 
        <SwiperSlide onClick={() => {navigate('/body');window.scrollTo(0, 0); }}>
-        <img src="/img/main_slide/02.jpg" alt="2번 배너" />
+        <img src={process.env.PUBLIC_URL + "/img/main_slide/02.jpg"} alt="2번 배너" />
            <div className={styles.main_txt}>
         <p>WEROH</p>
         <p>"BODY CARE"</p>
@@ -57,7 +54,7 @@ export default function MainSlide() {
       </SwiperSlide>
 
         <SwiperSlide onClick={() => {navigate('/body');window.scrollTo(0, 0); }}>
-        <img src="/img/main_slide/03.jpg" alt="3번 배너" />
+        <img src={process.env.PUBLIC_URL + "/img/main_slide/03.jpg"} alt="3번 배너" />
            <div className={styles.main_txt}>
         <p>WEROH</p>
         <p>"HAND & BODY" </p>

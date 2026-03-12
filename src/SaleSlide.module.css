@@ -15,7 +15,6 @@ overflow: hidden;
 .sale_box :global(.swiper-slide img) {
   width: 100%;
 height: 400px;
-  /* height: auto; */
   object-fit: contain ;
   transition: transform 0.4s ease;
  
@@ -31,7 +30,7 @@ height: 400px;
   font-size: 14px;
   color: #325336;
   pointer-events: none;
-  /* position: relative; */
+
 
 }
 
@@ -41,7 +40,7 @@ height: 400px;
 font-size: 50px;
 top: 0px;
 left:640px;
-/* margin: 0 auto; */
+
 
 }
 .sale_product {
@@ -58,7 +57,7 @@ font-size: 30px;
   text-align: center;
   text-wrap: nowrap;
   width: 50%;
-  /* height: 100%; */
+
 
 
 

@@ -10,7 +10,7 @@ import Footer from './Footer';
 
 export default function Details({hand}) {
 
-  // const {id} = props;
+
   const{id} = useParams();
   const dispatch = useDispatch();
   const handItem = hand.find(data => data.id ===id);
@@ -56,20 +56,7 @@ export default function Details({hand}) {
 
   return (
     <div>
-    {/* <div className='hand_detail'>
-      <div className='hand_detail_title'>
-       <h1>상세 페이지</h1>
-      </div>
-      <img src={handItem.img} style={{width:'600px'}} alt= "상세페이지 이미지"/>
-      <h3>{handItem.title}</h3>
- <p>{handItem.desc}</p>
- <p>{handItem.price}</p> */}
- {/* <p>총 구매 금액 : {bests[id].price * cnt}</p> */}
-
- {/* <button onClick={()=> {dispatch(addItem({id:handItem.id,title:handItem.title,count:1}))}}>장바구니</button> */}
-
-
-
+   
 
 
 <HandDetailBox>
@@ -83,7 +70,7 @@ export default function Details({hand}) {
  <p>{handItem.desc}</p>
  <p>{handItem.price}</p>
 
- <HandDetailBtn onClick={()=> {dispatch(addItem({id:handItem.id,title:handItem.title,count:1}))}}>장바구니</HandDetailBtn>
+ <HandDetailBtn onClick={()=> {dispatch(addItem({id:handItem.id,title:handItem.title,count:1,price: handItem.price,}))}}>장바구니</HandDetailBtn>
 
 </HandDetailCard>
 

@@ -32,13 +32,11 @@ const navigate = useNavigate();
       navigation
       pagination={{clickable: true}}
       scrollbar= {{draggable: true}}
-      // onSlideChange={() => console.log('slide change')}
-      // onSwiper={(swiper) => console.log(swiper)}
      autoplay={{delay: 3000, disableOnInteraction: false, pauseOnMouseEnter: true }}
      loop={true}
     >
       <SwiperSlide onClick={() => {navigate('/body');window.scrollTo(0, 0); }}>
-        <img src="/img/sale_slide/sale01.jpg" alt="1번 세일 상품" />
+        <img src={process.env.PUBLIC_URL + "/img/sale_slide/sale01.jpg"} alt="1번 세일 상품" />
 
         <div className={styles.sale_text}>
           <p className={styles.sale_title}>WEROH&nbsp;SIGNATURE</p>
@@ -62,7 +60,7 @@ const navigate = useNavigate();
       </SwiperSlide>
 
          <SwiperSlide onClick={() => {navigate('/body');window.scrollTo(0, 0); }}>
-       <img src="/img/sale_slide/sale02.jpg" alt="2번 세일 상품" />
+       <img src={process.env.PUBLIC_URL + "/img/sale_slide/sale02.jpg"} alt="2번 세일 상품" />
          <div className={styles.sale_text}>
           <p className={styles.sale_title}>WEROH&nbsp;SIGNATURE</p>
           <p className={styles.sale_product}>#Body&nbsp;Lotion</p>
@@ -86,7 +84,7 @@ const navigate = useNavigate();
       </SwiperSlide>
 
          <SwiperSlide onClick={() => {navigate('/hand');window.scrollTo(0, 0); }}>
-        <img src="/img/sale_slide/sale03.jpg" alt="3번 세일 상품" />
+        <img src={process.env.PUBLIC_URL + "/img/sale_slide/sale03.jpg"} alt="3번 세일 상품" />
          <div className={styles.sale_text}>
           <p className={styles.sale_title}>WEROH&nbsp;SIGNATURE</p>
           <p className={styles.sale_product}>#Hand&nbsp;Cream</p>
@@ -109,7 +107,7 @@ const navigate = useNavigate();
       </SwiperSlide>
 
       <SwiperSlide onClick={() => {navigate('/hand');window.scrollTo(0, 0); }}>
-        <img src="/img/sale_slide/sale04.jpg" alt="4번 세일 상품" />
+        <img src={process.env.PUBLIC_URL + "/img/sale_slide/sale04.jpg"} alt="4번 세일 상품" />
          <div className={styles.sale_text}>
           <p className={styles.sale_title}>WEROH&nbsp;SIGNATURE</p>
           <p className={styles.sale_product}>#Hand&nbsp;Cream</p>

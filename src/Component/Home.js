@@ -527,7 +527,7 @@ border: none;
 <HomeMiddleBox>
 
   <HomeImgBox01>
-    {/* <HomeMain01Img src='./img/main_box02/hb.png' alt='바디핸드크림 사진' /> */}
+
     <HomeMain01Img src={process.env.PUBLIC_URL + '/img/main_box02/hb.png'} alt='바디핸드크림 사진' />
    <HomeBoxText01>
 <p>Body & Hand</p>
@@ -541,7 +541,7 @@ border: none;
 
 
   <HomeImgBox02>
-      {/* <HomeMain02Img src='/img/main_box02/set.png' alt='선물세트 사진' /> */}
+    
       <HomeMain02Img src={process.env.PUBLIC_URL + '/img/main_box02/set.png'} alt='선물세트 사진' />
   <HomeBoxText02>
     <p>선물용 세트</p>
@@ -554,42 +554,6 @@ border: none;
 
 
 </HomeMiddleBox>
-
-
-
-{/* <div className='main_box'>
-
- <MainSlide />
-
-
-<div className='main_box02'>
-
-<div className='main_box02_1'>
-  <img src='/img/main_box02/hb.png' alt='바디핸드크림 사진' />
-
-
-  <div className='main_box02_1_text'>
-  <p>Body & Hand</p>
-  <p>#촉촉한 바디로션</p>
-  <p>#부드러운 핸드크림</p>
- <Link to="/body"className='view_btn'  onClick={() => window.scrollTo(0,0)}>+ VIEW</Link>
-  </div>
-
-</div>
-
-<div className='main_box02_2'>
-  <img src='/img/main_box02/set.png' alt='선물세트 사진' />
-
-  <div className='main_box02_2_text'>
-  <p>선물용 세트</p>
-  <p>#부모님</p>
-  <p>#친구</p>
-   <Link to='/body' className='view_btn'  onClick={() => window.scrollTo(0,0)}>+ VIEW</Link>
-</div>
-
-</div>
-
-</div> */}
 
 
 <SaleBox>
@@ -606,20 +570,6 @@ border: none;
 </SaleBox02>
 </SaleBox>
 
-{/* <div className='sale_box'>
-  <div className='sale_box01'>
-    <p>RENEWAL SALE!</p>
-    <p>New Year Renewal</p>
-    <p>Weroh up to 20% Discount</p>
-
-  </div>
-
-
-
-  <div className='sale_box02'></div>
-<SaleSlide />
-
-</div> */}
 
 
 
@@ -633,23 +583,9 @@ border: none;
   </BestBox>
 </BestItem>
 
-{/* <div className='best_item'>
-
-<div className='best_title'>
-<p>Best Item</p>
-</div>
-
-<div className='best_item_box'>
-
-<BestSlide />
-
-</div>
-</div> */}
-
-
 <StoryBox>
   <StoryImg src={`${process.env.PUBLIC_URL}/img/story/story.jpg`} alt='스토리 이미지' />
-  {/* <StoryImg src='/img/story/story.jpg' alt='스토리 이미지' /> */}
+ 
 <StoryBrand>
   <p>Weroh</p>
   <p>STORY</p>
@@ -663,24 +599,6 @@ border: none;
 </StoryText>
 
 </StoryBox>
-{/* 
-<div className='story_box'>
-
-<img src='/img/story/story.jpg' alt='스토리 이미지' />
-
-<div className='story_brand'>
-  <p>Weroh</p>
-  <p>STORY</p>
-</div>
-<div className='story_text'>
-  <p>Weroh는 자연의 품종에서 영감을 받아 탄생한 브랜드로, 더 나은 세상을 꿈꾸고자 합니다.</p>
-
-<p>우리의 스킨케어 제품은 자연 속에서 찾은 숨겨진 보물들로 만들어져 피부에 자연스럽게 녹아들어 영양을 전달합니다.</p>
-
-
-</div>
-</div> */}
-
 
 
 
@@ -735,64 +653,6 @@ border: none;
 
 </HomeAllItem>
 
-
-{/* <div className='all_item'>
-
-<div className='all_title'>
-<p>ALL Item</p>
-</div> */}
-
-{/* <div className="all_item_list">
-  {data.slice(0, 6).map(all => (
-    <div className="all_item_card" key={all.id}>
-      <img src={all.img} alt={all.title} />
-      <h3>{all.title}</h3>
-      <p>{all.desc}</p>
-      <p>{all.price.toLocaleString()}원</p>
-    </div>
-  ))}
-</div> */}
-
-{/* 
-<div className="body_item_list">
-
-  {body.slice(0,3).map((body,index) => (
-
-    <div className="body_item_card" key={body.id}>
-      <Link to={`/BodyDetails/${body.id}`}>
-      <img src={body.img} alt={body.title} />
-      <h3>{body.title}</h3>
-      <p>{body.desc}</p>
-      <p>{body.price.toLocaleString()}원</p>
-      </Link>
-
-       <button onClick ={()=> {dispatch(addItem({id:body.id, title:body.title,count: 1}))}}>장바구니</button>
-    </div>
-
-  ))}
-</div>
-
-
-<div className="hand_item_list">
-  {hand.slice(0,3).map((hand,index) => (
-    <div className="hand_item_card" key={hand.id}>
-          <Link to={`/HandDetails/${hand.id}`}>
-      <img src={hand.img} alt={hand.title} />
-      <h3>{hand.title}</h3>
-      <p>{hand.desc}</p>
-      <p>{hand.price.toLocaleString()}원</p>
-          </Link>
-
-      
-       <button onClick ={()=> {dispatch(addItem({id:hand.id, title:hand.title,count: 1}))}}>장바구니</button>    
-    </div>
-  ))}
-</div> */}
-
-{/* <Link to='/body' className= 'all_view_btn' onClick={() => window.scrollTo(0,0)}>+ VIEW</Link> */}
-
-
-{/* </div> */}
 
 <InstarGramBox>
 
@@ -853,31 +713,6 @@ border: none;
 
 </InstarGramBox>
 
-{/* 
-<div className='instagram_box'>
-
-  <div className='instagram_title'>
-    <p>INSTAGRAM</p>
-  </div>
-
-<div className='instagram_picture'>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><img src='/img/instagram/01.JPG' alt='인스타 1번 사진 ' /></a>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><img src='/img/instagram/02.JPG' alt='인스타 2번 사진 ' /></a>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><img src='/img/instagram/03.JPG' alt='인스타 3번 사진 ' /></a>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><img src='/img/instagram/04.JPG' alt='인스타 4번 사진 ' /></a>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><img src='/img/instagram/05.JPG' alt='인스타 5번 사진 ' /></a>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><img src='/img/instagram/06.PNG' alt='인스타 6번 사진 ' /></a>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><img src='/img/instagram/07.JPG' alt='인스타 7번 사진 ' /></a>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><img src='/img/instagram/08.JPG' alt='인스타 8번 사진 ' /></a>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><img src='/img/instagram/09.JPG' alt='인스타 9번 사진 ' /></a>
-
-</div>
-
-
-
-
-</div> */}
-  
 
   <HomeReviewBox>
 
@@ -946,70 +781,6 @@ border: none;
 
  </HomeReviewShow>
   </HomeReviewBox>
-  
-{/* 
-<div className='review_box'>
-
-  <div className='review_title'>
-    <p>REVIEW</p>
-  </div>
-
-
-
-<div className="review_show">
-
-  <div className="review_item">
-     <img src='/img/review/02.jpg' alt='호버' className='review_hover' />
-    <img src="/img/review/01.JPG"alt='1' onClick={() => setShowReview(1)} />
-    {showReview === 1 && (
-
-      <div className="review_text_box">
-        <p>자극적이지 않아 좋아요! 주변 지인들이 따라살 정도로 효과를 보고 있는 제품입니다.</p>
-        <button onClick={() => setShowReview(null)}>닫기</button>
-      </div>
-    )}
-  </div>
-
-  <div className="review_item">
-     <img src='/img/review/04.jpg' alt='호버' className='review_hover' />
-    <img src="/img/review/03.JPG" alt='2' onClick={() => setShowReview(2)} />
-    {showReview === 2 && (
-      <div className="review_text_box">
-        <p>리뉴얼 되고 더 좋아진 느낌 입니다. 좋아요!</p>
-        <button onClick={() => setShowReview(null)}>닫기</button>
-      </div>
-    )}
-  </div>
-
-  <div className="review_item">
-    <img src='/img/review/06.jpg' alt='호버' className='review_hover' />
-    <img src="/img/review/05.JPG" alt='3' onClick={() => setShowReview(3)} />
-    {showReview === 3 && (
-      <div className="review_text_box">
-        <p>성분이 순해서 피부에 자극이 덜해요. 만족합니다!</p>
-        <button onClick={() => setShowReview(null)}>닫기</button>
-      </div>
-    )}
-  </div>
-
-
-  <div className="review_item">
-    <img src='/img/review/08.jpg' alt='호버' className='review_hover' />
-    <img src="/img/review/07.JPG" alt='4' onClick={() => setShowReview(4)} />
-    {showReview === 4 && (
-      <div className="review_text_box">
-        <p>벌써 세번째 구매네요! 역시 믿고 구매합니다. 매번 잘 쓰고있어요.</p>
-        <button onClick={() => setShowReview(null)}>닫기</button>
-      </div>
-    )}
-  </div>
-</div>
-
-
-
-<Link to='/review' className='review_btn'  onClick={() => window.scrollTo(0,0)}>+ VIEW</Link>
-</div> */}
-
 
 <Footer/>
 

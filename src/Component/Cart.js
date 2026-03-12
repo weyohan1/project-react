@@ -118,61 +118,7 @@ const CartBtn = styled.button`
     }
     alert(`총 ${totalPrice.toLocaleString()}원 결제`); }}>결제하기</CartPayBtn>
 
-      
-      {/* <div className='cart_title'>
-
-      <h1>{state.user.name}님의 장바구니</h1>
-      </div>
-
-   <Table striped bordered hover className='table_back'>
-      <thead>
-        <tr>
-          <th>코드</th>
-          <th>상품명</th>
-          <th>수량</th>
-          <th>변경</th>
-          <th>금액</th>
-        </tr>
-      </thead>
-      <tbody>
-     {
-      state.cart.map((item)=>{
-        return (
-
-             <tr key={item.id}>
-          <td>{item.id}</td>
-          <td>{item.title}</td>
-          <td>{item.count}</td>
-          <td>
-            <button onClick={()=> dispatch(addCount(item.id))}>+</button>
-            <button onClick={()=> dispatch(subCount(item.id))}>-</button>
-            <button onClick={()=>dispatch(deleteItem(item.id))}>삭제</button>
-          </td>
-      
-          <td>{(item.price * item.count).toLocaleString()}원</td>
-        </tr>
-        )
-      })
-     }
-      </tbody>
-    </Table>
-<div className="total_box">
-  <h3>총 합계: {totalPrice.toLocaleString()}원</h3>
-</div>
-
-
-<button
-  className="pay_btn"
-  onClick={() => {
-    if (state.cart.length === 0) {
-      alert("장바구니가 비어 있습니다.");
-      return;
-    }
-    alert(`총 ${totalPrice.toLocaleString()}원 결제 진행`);
-  }}
->
-  결제하기
-</button> */}
+  
 <Footer/>
     </div>
   )

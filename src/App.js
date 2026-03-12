@@ -24,7 +24,7 @@ import Story from './Component/Story';
 import Review from './Component/Review';
 import Cart from './Component/Cart';
 import Login from './Component/Login';
-import Footer from './Component/Footer';
+// import Footer from './Component/Footer';
 
 
 
@@ -32,12 +32,6 @@ import Footer from './Component/Footer';
 
 function App() {
 
-
-
-
-// const navigate = useNavigate();
-// const [body] = useState(BodyData);
-// const dispatch = useDispatch();
 
 
   return (

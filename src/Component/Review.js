@@ -85,51 +85,22 @@ const ReviewCardImg = styled.img`
 
 
 
-{/* 
-      <div className='review_title'>
-         <h1>리뷰</h1>
-    <div className='breadcrumb'>
-      <p>Review > 리뷰</p>
-    </div>
-      </div>
-       */}
-
        <ReviewBox>
          {review.map((review,index) => (
         <ReviewCard  key={review.id}>
 
                <Link to={`/ReviewDetails/${review.id}`}>
-      {/* <ReviewCardImg src={process.env.PUBLIC_URL + review.img} alt={review.title} /> */}
       <ReviewCardImg src={review.img} alt={review.title} />
       <h3>{review.title}</h3>
       <p>{review.desc}</p>
       <p>{review.user}님</p>
+      
       </Link>
 
         </ReviewCard> 
 
          ))}
        </ReviewBox>
-
-
-
-{/* 
- <div className="review_item_list">
-  {review.map((review,index) => (
-
-    <div className="review_item_card" key={review.id}>
-      <Link to={`/ReviewDetails/${review.id}`}>
-      <img src={review.img} alt={review.title} />
-      <h3>{review.title}</h3>
-      <p>{review.desc}</p>
-      <p>{review.user}님</p>
-      </Link>  */}
-
-       {/* <button onClick ={()=> {dispatch(addItem({id:review.id, title:review.title,count: 1}))}}>장바구니</button> */}
-    {/* </div>
-  ))}
-</div>  */}
-
 
 
 

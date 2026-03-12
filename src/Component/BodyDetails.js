@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 export default function Details({body}) {
 
-  // const {id} = props;
+
   const{id} = useParams();
   const dispatch = useDispatch();
   const bodyItem = body.find(data => data.id ===id);
@@ -56,18 +56,6 @@ const BodyDetailBtn = styled.button`
     <div>
 
 
-{/*     
-    <div className='body_detail'>
-      <div className='body_detail_title'>
-       <h1>상세 페이지</h1>
-      </div>
-      <img src={bodyItem.img} style={{width:'600px'}} alt= "상세페이지 이미지"/>
-      <h3>{bodyItem.title}</h3>
- <p>{bodyItem.desc}</p>
- <p>{bodyItem.price}</p>
-
-
- <button onClick={()=> {dispatch(addItem({id:bodyItem.id,title:bodyItem.title,count:1}))}}>장바구니</button> */}
 
 
 <BodyDetailBox>
@@ -82,7 +70,7 @@ const BodyDetailBtn = styled.button`
  <p>{bodyItem.desc}</p>
  <p>{bodyItem.price}</p>
  
- <BodyDetailBtn onClick={()=> {dispatch(addItem({id:bodyItem.id,title:bodyItem.title,count:1}))}}>장바구니</BodyDetailBtn>
+ <BodyDetailBtn onClick={()=> {dispatch(addItem({id:bodyItem.id,title:bodyItem.title,count:1,price: bodyItem.price,}))}}>장바구니</BodyDetailBtn>
 
 
 </BodyDetailCard>

@@ -96,17 +96,8 @@ export default function Story() {
 
       </StoryTitle>
 
-{/* 
-      <div className='story_title'>
-         <h1>스토리</h1>
-            <div className='breadcrumb'>
-              <p>Story > 스토리</p>
-            </div>
-            </div>
- */}
-
             <StoryMain>
-                <StoryMainImg src='/img/story/story01.png' alt='스토리 메인 이미지'></StoryMainImg>
+                <StoryMainImg src={process.env.PUBLIC_URL +'/img/story/story01.png'} alt='스토리 메인 이미지'></StoryMainImg>
               <StoryText>
                 <p>"Weroh Brand"</p>
               </StoryText>
@@ -114,18 +105,10 @@ export default function Story() {
             </StoryMain>
 
 
-            {/* <div className='story_main'>
-              <img src='/img/story/story01.png' alt='스토리 메인 이미지'></img>
-              <div className='story_main_text'>
-                <p>"Weroh Brand"</p>
-              
-              </div>
-            </div> */}
-
             <StoryBox>
 
               <StoryBox01>
-                  <StoryBox01Img src='/img/story/story02.png' alt='스토리 이미지01'></StoryBox01Img>
+                  <StoryBox01Img src={process.env.PUBLIC_URL +'/img/story/story02.png'} alt='스토리 이미지01'></StoryBox01Img>
 
               </StoryBox01>
 
@@ -144,48 +127,6 @@ export default function Story() {
 
             </StoryBox>
 
-          
-
-            {/* <div className='story_box'>
-
-              <div className='story_box01'>
-              <img src='/img/story/story02.png' alt='스토리 이미지01'></img>
-              </div>
-              <div className='story_box02'>
-                <p>Harmony With Nature</p>
-                <p>자연과의 조화를 추구하며, 피부에 담백하고 순수한 아름다움을 선사합니다.</p>
-                <p>자연은 우리의 최고의 스승이자 영감의 원천입니다.</p>
-                <p>우리는 그 신비로움과 조화를 당신의 피부 관리에 담아내어, 자연스러운 아름다움을 극대화하고자 합니다.</p>
-                <p>우리의 제품은 고급 허브와 자연의 풍부한 선물들로 만들어졌습니다. </p>
-                <p>그 속에는 자연의 숨결이 담겨 있어, 피부에 자연 그대로의 힘과 생기를 전해줍니다.</p>
-                <p>또한, 환경을 소중히 여기며 친환경적인 제품을 만들어내고자 끊임없이 노력하고 있습니다.</p>
-              
-              </div>
-            </div> */}
-{/* 
-               <div className='story_box'>
-
-             
-              <div className='story_box02'>
-                <p>Harmony The Power of Nature Nature</p>
-               
-                <p>환경과 피부 모두를 생각하는 DIVINE은  최고급 허브, 귀중한 오일, 그리고 식물의 힘을 통합하여 자연과의 완벽한 조화를 담아내는 스킨케어 제품을 자랑합니다.</p>
-             
-                <p>우리는 차별화된 효과를 위해 엄선된 원료를 사용합니다. 예를 들어, 유기농 라벤더 오일은 피부를 진정시키고 수분을 공급하여 건강한 피부를 유지하도록 도와줍니다. </p>
-
-                <p>또한, DIVINE은 동물 실험을 하지 않으며, 동물성 성분을 사용하지 않습니다. 우리는 피부에 부담 없이 안심하고 사용할 수 있는 제품을 제공합니다. </p>
-              
-                <p>당신의 피부를 자연의 품에 안겨 빛나게 하기 위해, 우리의 제품을 경험해보세요.</p>
-             
-              
-              </div>
-
-               <div className='story_box01'>
-              <img src='/img/story/story03.png' alt='스토리 이미지01'></img>
-              </div>
-            </div> */}
-
-              
 
               <StoryBox>
 
@@ -203,7 +144,7 @@ export default function Story() {
 
                 </StoryBox02>
                 <StoryBox01>
-               <StoryBox01Img src='/img/story/story03.png' alt='스토리 이미지02'></StoryBox01Img>
+               <StoryBox01Img src={process.env.PUBLIC_URL +'/img/story/story03.png'} alt='스토리 이미지02'></StoryBox01Img>
                 </StoryBox01>
               </StoryBox>
               <Footer/>

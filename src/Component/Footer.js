@@ -108,40 +108,6 @@ export default function Footer() {
       </FooterBox>
 
 
-
-      {/* <div className='bottom_logo'>
-  <div className='bottom_text'>
-<p>Weroh</p>
-<p>Body Lotion & Hand Cream</p>
-
-  </div>
-
-
-      </div>
-
-    <div className='footer'>
-
-  <div className='footer_title'>
-  <p>CUSTOMER SERVICE</p>
-  <p>051-777-7777</p>
-  <p>AM 09:30 - PM06:00 (MON-FRI)</p>
-  <p>LUNCH PM12:00 - 13:00</p>
-  <p>Copyright &copy; Weroh ALL Right Reserved</p>
-  </div>
-
-
-
-  <div className='footer_help'>
-  <p>(주)레오레오</p>
-  <p>OWNER : 레오아빠</p>
-  <p>BUSINESS LICENSE : 777-77-77777</p>
-  <p>ADDRESS : 부산광역시</p>  
-  <p>E-MAIL : weroh@naver.com</p>
-  </div>
-
-
-      
-    </div> */}
     </div>
   )
 };

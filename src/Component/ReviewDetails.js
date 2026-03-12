@@ -10,7 +10,7 @@ import styled from 'styled-components';
 
 export default function Details({review}) {
 
-  // const {id} = props;
+ 
   const{id} = useParams();
   const dispatch = useDispatch();
   const reviewItem = review.find(data => data.id ===id);
@@ -98,14 +98,14 @@ export default function Details({review}) {
 
 
         <ReviewBox01>
-                {/* <ReviewDetailImg src={process.env.PUBLIC_URL + reviewItem.img} style={{width:'600px'}} alt="리뷰 이미지"/> */}
-
+            
                 <ReviewDetailImg src={reviewItem.img} style={{width:'600px'}} alt="리뷰 이미지"/>
 
                 <h3>{reviewItem.title}</h3>
                     <p>{reviewItem.desc}</p>
                     <p>{reviewItem.user}</p>
-                     <ReviewDetailBtn onClick={()=> {dispatch(addItem({id:reviewItem.id,title:reviewItem.title,count:1}))}}>장바구니</ReviewDetailBtn>
+                    <p>{reviewItem.price.toLocaleString()}원</p>
+                     <ReviewDetailBtn onClick={()=> {dispatch(addItem({id:reviewItem.id,title:reviewItem.title,count:1,price: reviewItem.price,}))}}>장바구니</ReviewDetailBtn>
 
 
         </ReviewBox01>
@@ -116,6 +116,7 @@ export default function Details({review}) {
             <p>{reviewItem.user}</p>
             <p>{reviewItem.text}</p>
             <p>{reviewItem.time}</p>
+          
 
         </ReviewBox02>
 
@@ -125,47 +126,6 @@ export default function Details({review}) {
       </ReviewDetail>
 
 
-
-
-
-{/* 
-
-
-    <div className='review_detail'>
-      <div className='review_detail_title'>
-       <h1>리뷰 페이지</h1>
-      </div>
-
-<div className='review_detail_box'>
-
-<div className='review_box01'>
-
-      <img src={reviewItem.img} style={{width:'600px'}} alt= "리뷰 이미지"/>
-      <h3>{reviewItem.title}</h3>
- <p>{reviewItem.desc}</p>
- <p>{reviewItem.user}</p>
- 
-
- <button onClick={()=> {dispatch(addItem({id:reviewItem.id,title:reviewItem.title,count:1}))}}>장바구니</button>
-
-</div>
- <div className='review_box02'>
- <h1>{reviewItem.title}</h1>
- <p>{reviewItem.desc}</p>
- <p>{reviewItem.user}</p>
- <p>{reviewItem.text}</p>
- <p>{reviewItem.time}</p>
- </div> */}
-
- {/* <div className='review_box02'>
-  <p>상품명 : DIVINE 041 핸드크림 30ml</p>
-  <p>만족도 : ★★★★☆</p>
-  <p>고객명 : 하**</p>
-  <p>너무 너무 좋아요 향도 좋고, 수분이 많아서 촉촉합니다.!</p>
-  <p>작성 시간 : 2026-02-10 : 22:10:15</p>
- </div> */}
-
-{/* </div> */}
 
 <Footer/>
 
