@@ -830,7 +830,7 @@ border: none;
 
    <InstarGramLink>
  <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
-<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/06.PNG`} alt='인스타 6번 사진' /></a>
+<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/06.png`} alt='인스타 6번 사진' /></a>
 </InstarGramLink>
 
    <InstarGramLink>
@@ -888,8 +888,8 @@ border: none;
  <HomeReviewShow>
 
 <HomeReviewItem>
-       <HomeReviewHoverImg src='/img/review/02.JPG' alt='호버' />
-    <HomeReviewImg src="/img/review/01.JPG"alt='1' onClick={() => setShowReview(1)} />
+      <HomeReviewHoverImg src={process.env.PUBLIC_URL + '/img/review/02.JPG'} alt='호버' />
+    <HomeReviewImg src={process.env.PUBLIC_URL + "/img/review/01.JPG"}alt='1' onClick={() => setShowReview(1)} />
      {showReview === 1 && (
 <HomeReviewTextBox>
         <p>자극적이지 않아 좋아요! 주변 지인들이 따라살 정도로 효과를 보고 있는 제품입니다.</p>
@@ -903,8 +903,8 @@ border: none;
 
 
 <HomeReviewItem>
-       <HomeReviewHoverImg src='/img/review/04.jpg' alt='호버' />
-    <HomeReviewImg src="/img/review/03.JPG"alt='2' onClick={() => setShowReview(2)} />
+       <HomeReviewHoverImg src={process.env.PUBLIC_URL + '/img/review/04.jpg'} alt='호버' />
+    <HomeReviewImg src={process.env.PUBLIC_URL +"/img/review/03.JPG"}alt='2' onClick={() => setShowReview(2)} />
      {showReview === 2 && (
 <HomeReviewTextBox>
          <p>리뉴얼 되고 더 좋아진 느낌 입니다. 좋아요!</p>
@@ -918,8 +918,8 @@ border: none;
 
 
 <HomeReviewItem>
-       <HomeReviewHoverImg src='/img/review/06.jpg' alt='호버' />
-    <HomeReviewImg src="/img/review/05.JPG"alt='3' onClick={() => setShowReview(3)} />
+       <HomeReviewHoverImg src={process.env.PUBLIC_URL +'/img/review/06.jpg'} alt='호버' />
+    <HomeReviewImg src={process.env.PUBLIC_URL + "/img/review/05.JPG"} alt='3' onClick={() => setShowReview(3)} />
      {showReview === 3 && (
 <HomeReviewTextBox>
          <p>성분이 순해서 피부에 자극이 덜해요. 만족합니다!</p>
@@ -932,8 +932,8 @@ border: none;
 
 
 <HomeReviewItem>
-       <HomeReviewHoverImg src='/img/review/08.jpg' alt='호버' />
-    <HomeReviewImg src="/img/review/07.JPG"alt='4' onClick={() => setShowReview(4)} />
+       <HomeReviewHoverImg src={process.env.PUBLIC_URL + '/img/review/08.jpg'} alt='호버' />
+    <HomeReviewImg src={process.env.PUBLIC_URL + "/img/review/07.JPG"}alt='4' onClick={() => setShowReview(4)} />
      {showReview === 4 && (
 <HomeReviewTextBox>
          <p>벌써 세번째 구매네요! 역시 믿고 구매합니다. 매번 잘 쓰고있어요.</p>
