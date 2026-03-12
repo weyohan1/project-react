@@ -835,17 +835,17 @@ border: none;
 
    <InstarGramLink>
  <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
-<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/07.JPG`} alt='인스타 7번 사진' /></a>
+<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/07.jpg`} alt='인스타 7번 사진' /></a>
 </InstarGramLink>
 
    <InstarGramLink>
  <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
-<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/08.JPG`} alt='인스타 8번 사진' /></a>
+<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/08.jpg`} alt='인스타 8번 사진' /></a>
 </InstarGramLink>
 
    <InstarGramLink>
  <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
-<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/09.JPG`} alt='인스타 9번 사진' /></a>
+<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/09.jpg`} alt='인스타 9번 사진' /></a>
 </InstarGramLink>
 
 </InstarGramPicture>
@@ -888,7 +888,7 @@ border: none;
  <HomeReviewShow>
 
 <HomeReviewItem>
-       <HomeReviewHoverImg src='/img/review/02.jpg' alt='호버' />
+       <HomeReviewHoverImg src='/img/review/02.JPG' alt='호버' />
     <HomeReviewImg src="/img/review/01.JPG"alt='1' onClick={() => setShowReview(1)} />
      {showReview === 1 && (
 <HomeReviewTextBox>
