@@ -1,70 +1,147 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 프로젝트 Body & Hand 웹사이트
 
-## Available Scripts
+![01](https://github.com/user-attachments/assets/b2347b53-d12d-416a-8575-02d3226092ec)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+▷ 개인 포트폴리오 입니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+▷ 정보의 과잉으로 인해 브랜드의 핵심 가치가 희석된 기존 바디케어 웹사이트를 개선하기 위해 기획하게 되었습니다.
 
-### `npm test`
+▷ 브랜드 아이덴티티를 보여줄 수 있는 선택과 집중 전략을 취했습니다, 불필요한 제품을 덜어내고 바디로션과 핸드크림 주력 라인업에 집중하여, 재구성하였습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📌 프로젝트 정보
 
-### `npm run eject`
+- 개발 기간 : 2026.01 ~ 2026.02     
+- 개발 인원 : 1명
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ✅시안 및 구성 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 기획
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src = "https://github.com/user-attachments/assets/9c494189-7527-4667-8485-7b2a35431f00" width = "300px"/>
+<img src = "https://github.com/user-attachments/assets/0e80ecf8-00d7-471b-b9ac-bb1720d8cab7" width = "300px"/>
+<br>
+<img src = "https://github.com/user-attachments/assets/4f750bf9-53a4-4f4a-8616-fc72129f6864" width = "200px"/>
+<img src = "https://github.com/user-attachments/assets/f87f2e9b-0554-4955-85e2-b1c36854adee" width = "300px"/>
+<img src = "https://github.com/user-attachments/assets/0594ee90-283a-4cc3-ac59-19648142e340" width = "200px"/>
+<img src = "https://github.com/user-attachments/assets/94dfc08e-9b2f-4028-bf05-03a620821c27" width = "200px"/>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📌사용 스킬
 
-### Making a Progressive Web App
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Styled Components](https://img.shields.io/badge/styled--components-%23DB7093.svg?style=for-the-badge&logo=styled-components&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## 📌 프로젝트 주요 기능
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- 메인 슬라이드 및 배너
+- 상세 페이지 정보 제공
+- 장바구니 관리 기능
+- 공통 디자인 시스템
+- 컴포넌트 기반 스타일링
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+
+
+## 📌 프로젝트 구조
+```
+project
+ ├ Data.js
+ │   
+ ├ Body.js          
+ ├ BodyData.js     
+ ├ BodyDetails.js 
+ │                 └ style.component 
+ ├ Hand.js          
+ ├ HandData.js     
+ ├ HandDetails.js  
+ │                 └ style.component 
+ ├ MainSlide.js        
+ │         └ MainSlide.module.css 
+ ├ BestSlide.js
+ │         └ BestSlide.module.css 
+ ├ SaleSlide.js 
+ │         └ SaleSlide.module.css   
+ │
+ ├ Home.js
+ │   └ style.component 
+ ├ Story.js
+ │   └ style.component 
+ ├ Review.js
+ │   └ style.component 
+ ├ Login.js
+ │   └ Login.css
+ ├ Cart.js
+ │   └ style.component
+ ├ Store.js
+ │   
+ ├ Footer.js
+ │   └ style.component
+
+```
+
+ <br>
+
+## 📌 코드 리뷰
+
+
+## ✅코드 
+
+1111111111111111
+22222222222222
+3333333333333
+
+11111111111
+222222222222
+3333
+
+
+
+
+##  ✅수정
+
+
+1111111111111111
+22222222222222
+3333333333333
+
+11111111111
+222222222222
+3333
+
+
+##  ✅수정
+
+
+
+1111111111111111
+22222222222222
+3333333333333
+
+11111111111
+222222222222
+3333
+
