@@ -98,7 +98,7 @@ export default function Details({review}) {
 
 
         <ReviewBox01>
-                <ReviewDetailImg src={reviewItem.img} style={{width:'600px'}} alt= "리뷰 이미지"/>
+                <ReviewDetailImg src={process.env.PUBLIC_URL + reviewItem.img} style={{width:'600px'}} alt="리뷰 이미지"/>
                 <h3>{reviewItem.title}</h3>
                     <p>{reviewItem.desc}</p>
                     <p>{reviewItem.user}</p>
