@@ -527,7 +527,8 @@ border: none;
 <HomeMiddleBox>
 
   <HomeImgBox01>
-    <HomeMain01Img src='./img/main_box02/hb.png' alt='바디핸드크림 사진' />
+    {/* <HomeMain01Img src='./img/main_box02/hb.png' alt='바디핸드크림 사진' /> */}
+    <HomeMain01Img src={process.env.PUBLIC_URL + '/img/main_box02/hb.png'} alt='바디핸드크림 사진' />
    <HomeBoxText01>
 <p>Body & Hand</p>
   <p>#촉촉한 바디로션</p>
@@ -540,7 +541,8 @@ border: none;
 
 
   <HomeImgBox02>
-      <HomeMain02Img src='/img/main_box02/set.png' alt='선물세트 사진' />
+      {/* <HomeMain02Img src='/img/main_box02/set.png' alt='선물세트 사진' /> */}
+      <HomeMain02Img src={process.env.PUBLIC_URL + '/img/main_box02/set.png'} alt='선물세트 사진' />
   <HomeBoxText02>
     <p>선물용 세트</p>
   <p>#부모님</p>
@@ -646,7 +648,8 @@ border: none;
 
 
 <StoryBox>
-  <StoryImg src='/img/story/story.jpg' alt='스토리 이미지' />
+  <StoryImg src={`${process.env.PUBLIC_URL}/img/story/story.jpg`} alt='스토리 이미지' />
+  {/* <StoryImg src='/img/story/story.jpg' alt='스토리 이미지' /> */}
 <StoryBrand>
   <p>Weroh</p>
   <p>STORY</p>
@@ -801,38 +804,48 @@ border: none;
 <InstarGramPicture>
 
   <InstarGramLink>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><InstarGramImg src='/img/instagram/01.JPG' alt='인스타 1번 사진 ' /></a>
+    
+ <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
+ <InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/01.JPG`} alt='인스타 1번 사진' /></a>
   </InstarGramLink>
 
     <InstarGramLink>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><InstarGramImg src='/img/instagram/02.JPG' alt='인스타 2번 사진 ' /></a>
+ <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
+ <InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/02.JPG`} alt='인스타 2번 사진' /></a>
 </InstarGramLink>
    <InstarGramLink>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><InstarGramImg src='/img/instagram/03.JPG' alt='인스타 3번 사진 ' /></a>
-</InstarGramLink>
-
-   <InstarGramLink>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><InstarGramImg src='/img/instagram/04.JPG' alt='인스타 4번 사진 ' /></a>
+ <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
+ <InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/03.JPG`} alt='인스타 3번 사진' /></a>
 </InstarGramLink>
 
    <InstarGramLink>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><InstarGramImg src='/img/instagram/05.JPG' alt='인스타 5번 사진 ' /></a>
+ <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
+ <InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/04.JPG`} alt='인스타 4번 사진' /></a>
 </InstarGramLink>
 
    <InstarGramLink>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><InstarGramImg src='/img/instagram/06.PNG' alt='인스타 6번 사진 ' /></a>
+ <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
+<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/05.JPG`} alt='인스타 5번 사진' /></a>
 </InstarGramLink>
 
    <InstarGramLink>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><InstarGramImg src='/img/instagram/07.JPG' alt='인스타 7번 사진 ' /></a>
+ <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
+<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/06.PNG`} alt='인스타 6번 사진' /></a>
 </InstarGramLink>
 
    <InstarGramLink>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><InstarGramImg src='/img/instagram/08.JPG' alt='인스타 8번 사진 ' /></a>
+ <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
+<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/07.JPG`} alt='인스타 7번 사진' /></a>
 </InstarGramLink>
 
    <InstarGramLink>
- <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'><InstarGramImg src='/img/instagram/09.JPG' alt='인스타 9번 사진 ' /></a>
+ <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
+<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/08.JPG`} alt='인스타 8번 사진' /></a>
+</InstarGramLink>
+
+   <InstarGramLink>
+ <a href='https://www.instagram.com/oosc_korea/p/DUPtohlEtBM/?img_index=3' target='_blank' rel='noopener noreferrer'>
+<InstarGramImg src={`${process.env.PUBLIC_URL}/img/instagram/09.JPG`} alt='인스타 9번 사진' /></a>
 </InstarGramLink>
 
 </InstarGramPicture>

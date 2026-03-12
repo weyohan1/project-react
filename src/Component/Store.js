@@ -1,4 +1,4 @@
-// import React from 'react'
+
 import { configureStore,  } from '@reduxjs/toolkit';
 import { createSlice } from '@reduxjs/toolkit';
 
@@ -11,7 +11,7 @@ const user = createSlice ({
   reducers: {
     changeName(state){
 
-      // state.name = state.name;
+    
     },
   }
 });
