@@ -3,7 +3,7 @@
 
 ![01](https://github.com/user-attachments/assets/b2347b53-d12d-416a-8575-02d3226092ec)
 
-📎 사이트 링크 : [https://weyohan1.github.io/](https://weyohan1.github.io/project-react/)
+📎 사이트 링크 : https://weyohan1.github.io/project-react/
 
 <br>
 
