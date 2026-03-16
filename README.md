@@ -126,7 +126,7 @@ project
 
 <br>
 
-<img src = "https://github.com/user-attachments/assets/f4e10c1f-6f77-4ffb-9089-d1ff7f47a3e9" width = "500px">
+https://github.com/user-attachments/assets/f62e83d7-f844-40cb-850a-26fb28e78bad
 
 <br>
 
@@ -143,7 +143,7 @@ project
 
 <br>
 
-<img src = "https://github.com/user-attachments/assets/a397090a-9619-4fbd-bb8c-e50347f964f1" width = "500px" />
+https://github.com/user-attachments/assets/fe245cf0-add7-4d7b-9326-586ec441ceda
 
 <br>
 
@@ -166,5 +166,5 @@ project
 
 ## ⭕ Hover 인터랙션 UI 구현 결과
 
-<img src = "https://github.com/user-attachments/assets/30a5d150-e13f-43df-83b0-aa61ea98fdab" width = "500px"/>
+https://github.com/user-attachments/assets/5a98f745-dd37-4dc7-b591-068df375cdb3
 
