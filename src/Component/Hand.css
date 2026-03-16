@@ -18,8 +18,6 @@
 }
 
 
-
-
 .hand_item_list {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
@@ -50,8 +48,6 @@
 
 
 
-
-
 .hand_item_list p:nth-child(4) {
 
 }
@@ -67,10 +63,6 @@
   object-fit: cover;
 
 }
-
-
-
-
 
 .hand_detail {
   width: 100%;
@@ -100,12 +92,7 @@
 .hand_item_list button :hover {
   background-color: #325336;
   color: white;
-  
-
 }
-
-
-
 
 /*******************************************/
 

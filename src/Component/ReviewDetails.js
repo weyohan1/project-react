@@ -1,10 +1,7 @@
 import React from 'react'
-
-
 import {useParams} from 'react-router-dom';
 import { useDispatch} from 'react-redux';
 import {addItem} from './Store';
-// import './Review.css';
 import Footer from './Footer';
 import styled from 'styled-components';
 
@@ -122,45 +119,12 @@ export default function Details({review}) {
 
 </ReviewDetailBox>
 
-
       </ReviewDetail>
 
-
-
 <Footer/>
-
-
-
 
     </div>
   )
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// export default function Details() {
-//   return (
-//     <div>
-      
-//     </div>
-//   )
-// }

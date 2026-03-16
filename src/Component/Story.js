@@ -1,5 +1,4 @@
 import React from 'react'
-// import './Story.css';
 import styled from 'styled-components';
 import Footer from './Footer';
 
@@ -148,10 +147,6 @@ export default function Story() {
                 </StoryBox01>
               </StoryBox>
               <Footer/>
-
-
-
-
 
       </div>
       

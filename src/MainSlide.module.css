@@ -3,11 +3,6 @@
   position: relative;
 }
 
-
-
-
-
-
 .main_swiper_slide :global(.swiper-slide img) {
   width: 100%;
   height: auto;
@@ -25,7 +20,7 @@ left: 150px;
 opacity: 0;
 transform: translateY(100px);
 font-size: 30px;
-  color: #325336;
+color: #325336;
 text-align: center;
 }
 

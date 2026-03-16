@@ -1,24 +1,14 @@
-// import React from 'react'
 import ReviewData from './ReviewData';
-// import './Review.css';
-// import ReviewDetails from './ReviewDetails';
-
-
-
 import {Link} from 'react-router-dom';
-// import { useDispatch} from 'react-redux';
-// import {addItem} from './Store';
 import { useState} from 'react';
 import Footer from './Footer';
 import styled from 'styled-components';
 
 
 
-
 export default function Review() {
 
 const [review] = useState(ReviewData);
-// const dispatch = useDispatch();
 
 
 const ReviewTitle = styled.div`
@@ -65,9 +55,6 @@ const ReviewCardImg = styled.img`
   object-fit: cover;
 
 `;
-
-
-
 
 
   return (

@@ -65,22 +65,12 @@ const CartBtn = styled.button`
 `;
 
 
-
-
-
-
 export default function Body() {
   const [body] = useState(BodyData);
   const dispatch = useDispatch();
 
   return (
     <div>
-
-
-
-
-
-
 
       <Title>
         <h1>바디 로션</h1>
@@ -92,40 +82,18 @@ export default function Body() {
       <ItemBox>
         {body.map((item) => (
           <ItemCard key={item.id}>
-
-
-
-
-
             <Link to={`/BodyDetails/${item.id}`}>
               <img src={item.img} alt={item.title} />
               <h3>{item.title}</h3>
               <p>{item.desc}</p>
               <p>{item.price.toLocaleString()}원</p>
-            </Link>
-            
-
-
-
-
-
-          
+            </Link> 
             <CartBtn onClick={() => dispatch(addItem({ id: item.id, title: item.title,price: item.price, count: 1 }))}>
               장바구니
             </CartBtn>
           </ItemCard>
-
         ))}
       </ItemBox>
-
-
-
-
-
-
-
-
-
 
       <Footer />
     </div>

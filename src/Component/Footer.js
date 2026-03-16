@@ -1,5 +1,4 @@
 import React from 'react'
-// import './Footer.css';
 import styled from 'styled-components';
 
 
@@ -74,35 +73,31 @@ export default function Footer() {
     <div>
 
       <FooterLogo>
+
         <FooterText>
-          
           <p>Weroh</p>
-        
           <p>Body Lotion & Hand Cream</p>
         </FooterText>
 
-
       </FooterLogo>
 
-
       <FooterBox>
-        <FooterTitle>
+
+   <FooterTitle>
   <p>CUSTOMER SERVICE</p>
   <p>051-777-7777</p>
   <p>AM 09:30 - PM06:00 (MON-FRI)</p>
   <p>LUNCH PM12:00 - 13:00</p>
   <p>Copyright &copy; Weroh ALL Right Reserved</p>
-        </FooterTitle>
+   </FooterTitle>
 
-        <FooterHelp>
+   <FooterHelp>
   <p>(주)레오레오</p>
   <p>OWNER : 레오아빠</p>
   <p>BUSINESS LICENSE : 777-77-77777</p>
   <p>ADDRESS : 부산광역시</p>  
   <p>E-MAIL : weroh@naver.com</p>
-
-
-        </FooterHelp>
+   </FooterHelp>
 
 
       </FooterBox>

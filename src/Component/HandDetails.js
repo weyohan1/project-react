@@ -1,12 +1,10 @@
 import React from 'react'
-
-
 import {useParams} from 'react-router-dom';
 import { useDispatch} from 'react-redux';
 import {addItem} from './Store';
-// import './Hand.css';
 import styled from 'styled-components';
 import Footer from './Footer';
+
 
 export default function Details({hand}) {
 
@@ -58,15 +56,15 @@ export default function Details({hand}) {
     <div>
    
 
-
 <HandDetailBox>
+
   <HandDetailTitle>
     <h1>상세 페이지</h1>
   </HandDetailTitle>
 
 <HandDetailCard>
   <img src={handItem.img} style={{width:'600px'}} alt= "상세페이지 이미지"/>
-      <h3>{handItem.title}</h3>
+  <h3>{handItem.title}</h3>
  <p>{handItem.desc}</p>
  <p>{handItem.price}</p>
 
@@ -76,39 +74,8 @@ export default function Details({hand}) {
 
 </HandDetailBox>
 
-
-
 <Footer/>
 
     </div>
   )
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// export default function Details() {
-//   return (
-//     <div>
-      
-//     </div>
-//   )
-// }

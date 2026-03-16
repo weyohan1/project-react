@@ -1,14 +1,13 @@
 import React from 'react'
-
 import {useParams} from 'react-router-dom';
 import { useDispatch} from 'react-redux';
 import {addItem} from './Store';
-// import './Body.css';
 import styled from 'styled-components'; 
 import Footer from './Footer';
 
-export default function Details({body}) {
 
+
+export default function Details({body}) {
 
   const{id} = useParams();
   const dispatch = useDispatch();
@@ -55,9 +54,6 @@ const BodyDetailBtn = styled.button`
   return (
     <div>
 
-
-
-
 <BodyDetailBox>
 <BodyDetailTitle>
   <h1>상세 페이지</h1>
@@ -72,17 +68,11 @@ const BodyDetailBtn = styled.button`
  
  <BodyDetailBtn onClick={()=> {dispatch(addItem({id:bodyItem.id,title:bodyItem.title,count:1,price: bodyItem.price,}))}}>장바구니</BodyDetailBtn>
 
-
 </BodyDetailCard>
 
-
-
-
 </BodyDetailBox>
-
-             
+          
 <Footer/>
-
 
     </div>
   )

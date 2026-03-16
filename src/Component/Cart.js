@@ -1,11 +1,6 @@
 import React from 'react'
-// import './Cart.css';
 import Footer from './Footer';
-
 import styled from 'styled-components';
-
-
-
 import Table from 'react-bootstrap/Table';
 import {useDispatch, useSelector} from 'react-redux';
 import { addCount, subCount,deleteItem } from './Store'
@@ -103,8 +98,6 @@ const CartBtn = styled.button`
       })
      }
       </tbody>
-
-
 
       </CartTable>
       <CartTotalBox>

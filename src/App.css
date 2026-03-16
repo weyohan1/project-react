@@ -31,11 +31,8 @@ a{color: black; text-decoration: none;}
 .App {
 margin: 0 auto;
 width: 90%;
-
   
 }
-
-
 
 
 /**해더**/
@@ -192,7 +189,7 @@ border: 1px solid white;
 .sale_box01 p:nth-child(2){
   font-size: 50px;
   color: #EFE6D8;
-  /* margin-top: 20px; */
+ 
 }
 .sale_box01 p:nth-child(3){
   font-size: 30px;
@@ -290,11 +287,6 @@ border: 1px solid white;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-
-
-
-
 
 .body_item_list, .hand_item_list {
   display: grid;
@@ -401,15 +393,6 @@ cursor: pointer;
   overflow: hidden;
 }
 
-
-
-
-
-
-
-
-
-
 /**리뷰 박스**/
 
 .review_box {
@@ -443,7 +426,6 @@ cursor: pointer;
 }
 
 
-
 /***나중에 **/
 .review_btn {
   width: 100px;
@@ -470,15 +452,6 @@ color: white;
 cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
 /**호버+박스**/
 
 .review_item {
@@ -493,9 +466,6 @@ cursor: pointer;
   height: 400px;
   cursor: pointer;
 }
-
-
-
 
 .review_hover {
   position: absolute;
@@ -514,9 +484,6 @@ cursor: pointer;
 .review_item:hover .review_hover {
   opacity: 1;
 }
-
-
-
 
 .review_item .review_text_box {
   position: absolute;

@@ -3,16 +3,13 @@ import './Login.css';
 import Footer from './Footer';
 
 
-
-
 export default function Login() {
   return (
 
 
     <div>
       <div className='login_title'>
-        <h1>로그인</h1>
-  
+      <h1>로그인</h1>
       </div>
 
 <div className='login_main'>
@@ -26,7 +23,6 @@ export default function Login() {
   <form action='' name='login'>
 
     <div className='log_in'>
-
     <label><p>아이디</p></label>
     <input type="text" name="user_id" id="user_id" class="user_id" placeholder="아이디입력" required autofocus></input>
 
@@ -40,6 +36,7 @@ export default function Login() {
     </div>
 
     </div>
+    
   </form>
 
 <div class="find_menu">

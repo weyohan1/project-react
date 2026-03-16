@@ -1,22 +1,11 @@
-// import logo from './logo.svg';
 import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import {Route,Routes,Link} from 'react-router-dom';
-// import { Container, Nav , Navbar,Row, Col } from 'react-bootstrap';
-
-
-// import { useState} from 'react';
-// import { useDispatch } from 'react-redux';
-// import { addItem } from './Component/Store';
 import BodyData from './Component/BodyData';
 import BodyDetails from './Component/BodyDetails';
-
 import HandData from './Component/HandData';
 import HandDetails from './Component/HandDetails';
-
 import ReviewData from './Component/ReviewData';
 import ReviewDetails from './Component/ReviewDetails';
-
 import Home from './Component/Home';
 import Body from './Component/Body';
 import Hand from './Component/Hand';
@@ -24,11 +13,6 @@ import Story from './Component/Story';
 import Review from './Component/Review';
 import Cart from './Component/Cart';
 import Login from './Component/Login';
-// import Footer from './Component/Footer';
-
-
-
-
 
 function App() {
 
@@ -42,7 +26,7 @@ function App() {
 
 
 
-    <div className="App">
+  <div className="App">
 
 <header className='header'>
 

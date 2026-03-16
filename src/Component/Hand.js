@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import styled from 'styled-components'; 
 import HandData from './HandData';
@@ -73,24 +71,12 @@ const CartBtn = styled.button`
   &:hover { background: #325336; color: white; }
 `;
 
-
-
-
-
-
 export default function Hand() {
   const [hand] = useState(HandData);
   const dispatch = useDispatch();
 
   return (
     <div>
-
-
-
-
-
-
-
 
       <Title>
         <h1>핸드 크림</h1>
@@ -103,10 +89,6 @@ export default function Hand() {
         {hand.map((item) => (
           <ItemCard key={item.id}>
 
-
-
-
-
             <Link to={`/HandDetails/${item.id}`}>
               <HandImg src={item.img} alt={item.title} />
               <h3>{item.title}</h3>
@@ -114,29 +96,12 @@ export default function Hand() {
               <p>{item.price.toLocaleString()}원</p>
             </Link>
             
-
-
-
-
-
-
-           
             <CartBtn onClick={() => dispatch(addItem({ id: item.id, title: item.title, price: item.price, count: 1 }))}>
               장바구니
             </CartBtn>
           </ItemCard>
-
         ))}
       </ItemBox>
-
-
-
-
-
-
-
-
-
 
       <Footer />
     </div>

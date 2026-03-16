@@ -1,44 +1,24 @@
 import React from 'react'
-
 import { Link } from 'react-router-dom';
 import MainSlide from './MainSlide'
 import SaleSlide from './SaleSlide';
 import BestSlide from './BestSlide';
 import '../App.css';
-// import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { useDispatch} from 'react-redux';
 import {addItem} from './Store';
-
 import BodyData from './BodyData';
-// import Body from './Body';
-// import Hand from './Hand';
-// import './Body.css';
 import HandData from './HandData';
-// import './Hand.css';
-
-// import './Review.css';
 import Footer from './Footer';
-// import ReviewData from './ReviewData';
-
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Container, Row, Col } from 'react-bootstrap';
-// import data from './Component/data';
-// import { Swiper } from 'swiper/types';
-
 import styled from 'styled-components';
 
 
 export default function Home() {
   
-  // const navigate = useNavigate();
-  const [showReview, setShowReview] = useState(null);
 
+  const [showReview, setShowReview] = useState(null);
   const [body] = useState(BodyData);
   const [hand] = useState(HandData);
-  // const [review] = useState(ReviewData);
-
-
   const dispatch = useDispatch();
 
 
