@@ -18,7 +18,6 @@
 
 <br>
 
-
 ## 📌 프로젝트 정보
 
 - 개발 기간 : 2026.01 ~ 2026.02     
@@ -123,12 +122,25 @@ project
 - 메인 슬라이드에는 Swiper와 텍스트 애니메이션을 적용하여 슬라이드 전환 시 콘텐츠가 자연스럽게 등장하는 인터랙티브한 UI를 구현하였습니다.
 - 슬라이드 내부 상품을 클릭하여 페이지 이동 시 스크롤 위치가 중간에서 시작되는 문제가 발생하여, window.scrollTo(0, 0)을 사용해 페이지 로드 시 최상단으로 초기화하도록 처리했습니다.
 
+## ⭕ 구현 결과
+
+
+<br>
+
 ### (세일) 배너 슬라이드
 
 <img src = "https://github.com/user-attachments/assets/4e309bcb-4701-4fbe-bbfd-2afc35b94e2a" width = "500px">
 <img src = "https://github.com/user-attachments/assets/b9ecef84-6b57-494a-8f67-06897bb34d30" width = "500px">
 
 - (세일 배너) 슬라이드에는 마우스를 올리면 자동 화면 전환이 일시 정지되도록 구현하였으며, 상품에 호버 시 이미지가 확대되는 효과를 적용하였습니다.
+
+<br>
+
+## ⭕  (세일) 배너 슬라이드 구현 결과
+
+<br>
+
+<img src = "https://github.com/user-attachments/assets/a397090a-9619-4fbd-bb8c-e50347f964f1" width = "500px" />
 
 <br>
 
@@ -146,4 +158,10 @@ project
 <img src = "https://github.com/user-attachments/assets/8d0af194-b32a-450c-a6d4-0e96a4922e03" >
 
 - 상품 카드에 hover를 적용하여 마우스 호버 시 transform: scale(0.9)로 축소되는 UI 효과를 구현했습니다.
+
+<br>
+
+## ⭕  Hover 인터랙션 UI 구현 결과
+
+<img src = "https://github.com/user-attachments/assets/30a5d150-e13f-43df-83b0-aa61ea98fdab" width = "500px"/>
 
