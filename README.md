@@ -122,8 +122,11 @@ project
 - 메인 슬라이드에는 Swiper와 텍스트 애니메이션을 적용하여 슬라이드 전환 시 콘텐츠가 자연스럽게 등장하는 인터랙티브한 UI를 구현하였습니다.
 - 슬라이드 내부 상품을 클릭하여 페이지 이동 시 스크롤 위치가 중간에서 시작되는 문제가 발생하여, window.scrollTo(0, 0)을 사용해 페이지 로드 시 최상단으로 초기화하도록 처리했습니다.
 
-## ⭕ 구현 결과
+## ⭕ 메인 슬라이드 구현 결과
 
+<br>
+
+<img src = "https://github.com/user-attachments/assets/f4e10c1f-6f77-4ffb-9089-d1ff7f47a3e9" width = "500px">
 
 <br>
 
@@ -136,7 +139,7 @@ project
 
 <br>
 
-## ⭕  (세일) 배너 슬라이드 구현 결과
+## ⭕ (세일) 배너 슬라이드 구현 결과
 
 <br>
 
@@ -161,7 +164,7 @@ project
 
 <br>
 
-## ⭕  Hover 인터랙션 UI 구현 결과
+## ⭕ Hover 인터랙션 UI 구현 결과
 
 <img src = "https://github.com/user-attachments/assets/30a5d150-e13f-43df-83b0-aa61ea98fdab" width = "500px"/>
 
