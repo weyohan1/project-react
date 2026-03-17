@@ -149,8 +149,8 @@ https://github.com/user-attachments/assets/fe245cf0-add7-4d7b-9326-586ec441ceda
 
 ##  ✅ 컴포넌트 기반 스타일링
 
-<img src = "https://github.com/user-attachments/assets/8173b3f6-8201-4b66-8892-b5abb687fd6c" width = "500px">
-<img src = "https://github.com/user-attachments/assets/c3bcf2a4-01a3-44bf-aa34-dbef137cf1a4" width = "500px">
+<img src = "https://github.com/user-attachments/assets/8173b3f6-8201-4b66-8892-b5abb687fd6c" width = "400px">
+<img src = "https://github.com/user-attachments/assets/c3bcf2a4-01a3-44bf-aa34-dbef137cf1a4" width = "400px">
 
 - 기존 CSS 파일 기반 스타일 관리 방식을 React 컴포넌트 단위의 styled-components 방식으로 변경하여 스타일 관리 효율성을 개선했습니다.
 
