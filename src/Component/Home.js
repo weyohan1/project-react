@@ -718,7 +718,7 @@ border: none;
 
 
 <HomeReviewItem>
-       <HomeReviewHoverImg src={process.env.PUBLIC_URL + '/img/review/04.jpg'} alt='호버' />
+       <HomeReviewHoverImg src={process.env.PUBLIC_URL + '/img/review/04.JPG'} alt='호버' />
     <HomeReviewImg src={process.env.PUBLIC_URL +"/img/review/03.JPG"}alt='2' onClick={() => setShowReview(2)} />
      {showReview === 2 && (
 <HomeReviewTextBox>
@@ -733,7 +733,7 @@ border: none;
 
 
 <HomeReviewItem>
-       <HomeReviewHoverImg src={process.env.PUBLIC_URL +'/img/review/06.jpg'} alt='호버' />
+       <HomeReviewHoverImg src={process.env.PUBLIC_URL +'/img/review/06.JPG'} alt='호버' />
     <HomeReviewImg src={process.env.PUBLIC_URL + "/img/review/05.JPG"} alt='3' onClick={() => setShowReview(3)} />
      {showReview === 3 && (
 <HomeReviewTextBox>
@@ -747,7 +747,7 @@ border: none;
 
 
 <HomeReviewItem>
-       <HomeReviewHoverImg src={process.env.PUBLIC_URL + '/img/review/08.jpg'} alt='호버' />
+       <HomeReviewHoverImg src={process.env.PUBLIC_URL + '/img/review/08.JPG'} alt='호버' />
     <HomeReviewImg src={process.env.PUBLIC_URL + "/img/review/07.JPG"}alt='4' onClick={() => setShowReview(4)} />
      {showReview === 4 && (
 <HomeReviewTextBox>
